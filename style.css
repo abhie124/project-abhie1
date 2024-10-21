@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 90px;
+    background-color: deepskyblue;
+    color: white;
+}
+
+#main{ 
+    background-color: white;
+    padding: 100px 80px;
+}
+
+#footer{
+    height: 120px;
+    background-color: deepskyblue;
+    padding: 40px;
+}
+
+.header-list li{
+    list-style: none;
+    float: left;
+    font-size: 19px;
+    padding: 33px 40px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 40px;
+    padding: 20px 10px;
+}
+
+.header-list{
+    float: left;
+}
+
+span{
+    color: red;
+}
+.copy-container h1{
+    font-size: 85px;
+}
+
+.copy-container h2{
+    font-size: 45px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.content-from{
+    padding-top: 100px;
+}
+
+input, textarea{
+    width: 400px;
+    padding: 20px;
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+    border: 1px solid grey;
+}
+
+.contact-submit{
+    background-color: grey;
+    color: white;
+}
+.contact-submit:hover{
+    cursor: pointer;
+}
+
+.contact-submit:active{
+    cursor: pointer;
+    background-color: white;
+}
+
+.footer-logo{
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    color: white;
+    font-size: large;
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+.contents-item{
+    float: left;
+    padding: 15px;
+}
+
+.contents{
+    height: 500px;
+}
+
+h3{
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+    margin: 10px;
+    margin-top: 50px;
+}
